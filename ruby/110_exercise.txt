@@ -1,0 +1,22 @@
+Exercise 110
+I. Write a ruby script that will read the file '100_input.txt':
+  1. Extract all the numbers from the grid
+  2. Sort and print the numbers to the screen
+
+II. Write a ruby script that will read the file '100_input.txt':
+  1. Assign addresses to each cell; so top left corner is cell(1,1), bottom right is (5,5)
+  2. Consider the content of each cell to be the address of another cell, so 34 is the address
+     for cell (3, 4).
+  3. Starting from the first cell (1,1), follow the value in the cell to the next one.   
+     The value (34) is the coordinate of the next cell row 3, column 4 (having 42).  
+  4. Follow the map until you find the treasure where the value of the cell EQUALS its coordinates.
+
+Notes:
+  Useful methods on String class
+    - split: Splits a string. >>> "a b c".split(' ') => ['a', 'b', 'c']
+    - gsub: Substitutes with regex.  >>> "abcd bcde".gsub(/cd/, 'xx') => "abxx bxxe"
+
+  Useful methods on Array class
+    - map: converts values to something else.
+      Ex: ["a b c", "d e f"].map {|e| e.split(' ') }
+      =>  [["a", "b", "c"], ["d", "e", "f"]]
