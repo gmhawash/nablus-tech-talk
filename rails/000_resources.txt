@@ -1,0 +1,5 @@
+http://railscasts.com/
+http://apidock.com/rails
+http://ruby-doc.org/
+http://guides.rubyonrails.org/
+
