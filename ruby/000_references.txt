@@ -1,3 +1,13 @@
-http://www.tutorialspoint.com/ruby/index.htm
-http://www.tutorialspoint.com/ruby/ruby_tutorial.pdf
-https://www.ruby-lang.org/en/
+o. VM Info:
+  username: nablus
+  password: nablus123
+
+o. cd ~/src/nablus-tech-talk
+  git pull
+
+o. References:
+  Source Repo: https://github.com/gmhawash/nablus-tech-talk
+
+  http://www.tutorialspoint.com/ruby/index.htm
+  http://www.tutorialspoint.com/ruby/ruby_tutorial.pdf
+  https://www.ruby-lang.org/en/
