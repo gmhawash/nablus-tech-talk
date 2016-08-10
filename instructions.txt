@@ -1,0 +1,5 @@
+v001- Create a new Rails application
+  be rails g tasjeel -d postgresql
+  be rails db:create  (< Rails 5.0, use: be rake db:create)
+
+
