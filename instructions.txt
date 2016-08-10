@@ -8,3 +8,12 @@ v002: Create scaffold for attendee
   be rails s
   visit http://localhost:3000               # public page
   visit http://localhost:4400/attendees     # WOOT a fully functional website
+
+v003: 
+  - Install Heroku Toolbelt
+    * wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+    * Create a free account on heroku.com
+    * heroku login    # use credentials to log in
+    * heroku create   # create app
+    
+
