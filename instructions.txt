@@ -2,4 +2,9 @@ v001- Create a new Rails application
   be rails g tasjeel -d postgresql
   be rails db:create  (< Rails 5.0, use: be rake db:create)
 
-
+v002: Create scaffold for attendee
+  be rails g scaffold Attendee name:string date_of_birth:date identification:string address:string
+  be rails db:migrate
+  be rails s
+  visit http://localhost:3000               # public page
+  visit http://localhost:4400/attendees     # WOOT a fully functional website
