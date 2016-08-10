@@ -9,11 +9,21 @@ v002: Create scaffold for attendee
   visit http://localhost:3000               # public page
   visit http://localhost:4400/attendees     # WOOT a fully functional website
 
-v003: 
-  - Install Heroku Toolbelt
+  - Install Heroku Toolbelt: (ref: https://toolbelt.heroku.com/debian)
     * wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
     * Create a free account on heroku.com
     * heroku login    # use credentials to log in
     * heroku create   # create app
-    
+    * git push heroku master
+    * heroku run rake db:migrate
+
+v003: 
+  o Skin it with foundation
+    - Add: gem 'foundation-rails' to Gemfile
+    - Add: therubyracer gem for linux
+    - run: bundle
+    - run: rails g foundation:install
+  
+
+
 
